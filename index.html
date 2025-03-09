@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klothink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__menu">
+                    <ul class="menu__list list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link btn">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link btn">Products</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#"><img src="assets/images/logo/logo.svg" alt="логотип" class="header__logo"></a>
+                <div class="header__actions">
+                    <button class="header__btn-cart "><img src="assets/images/header/cardButton.svg" alt=""></button>
+                    <button class="header__btn-support btn">Contact Support</button>
+                    <button class="header__btn-burger btn"><img class="burger__btn-icon" src="assets/images/header/burger.svg" alt=""></button>
+                </div>
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner__container container">
+                <div class="banner__name">
+                    <h1 class="banner__title section__title">Elevate Your Style with Klothink</h1>
+                    <h6 class="banner__subtitle section__subtitle">Style Redefined.</h6>
+                </div>
+                <p class="banner__desc desc">
+                    Explore a world of fashion at Klothink, where trends meet affordability. Immerse yourself in the latest styles and seize exclusive promotions.
+                </p>
+                <div class="banner__actions">
+                    <button class="btn-yellow banner__btn-shopnow"><img src="assets/images/banner/Subtract.svg" alt="" class="btn__icon">Shop Now</button>
+                    <button class="banner__btn-contactus btn">Contact Us</button>
+                </div>
+                <ul class="banner__benefits list">
+                    <li class="banner__benefit">
+                        <h5 class="benefit__title">Over 1000+</h5>
+                        <p class="benefit__desc">Trendsetting Styles</p>
+                    </li>
+                    <li class="banner__benefit">
+                        <h5 class="benefit__title">24/7</h5>
+                        <p class="benefit__desc">Shopping Convenience</p>
+                    </li>
+                    <li class="banner__benefit">
+                        <h5 class="benefit__title">99%</h5>
+                        <p class="benefit__desc">Customer Satisfaction Rate</p>
+                    </li>
+                    <li class="banner__benefit">
+                        <h5 class="benefit__title">30-Day</h5>
+                        <p class="benefit__desc">Hassle-Free Returns</p>
+                    </li>
+                </ul>
+                <img src="assets/images/banner/Subontainer.png" alt="" class="banner__img">
+            </div>
+        </section>
+        <!-- /banner -->
+        <!-- catalog -->
+        <section class="catalog">
+            <div class="catalog__container container">
+                <div class="section__top">
+                    <div class="section__name">
+                        <div class="section_titles">
+                            <h3 class="catalog__title section__title">Discover Fashion.</h3>
+                            <p class="section__subtitle catalog__subtitle">Products</p>
+                        </div>
+                        <p class="desc section_desc catalog__desc">Dive into a world of fashion innovation at Klothink. Our carefully curated collections bring together the latest trends and timeless classics, ensuring you find the perfect pieces for every occasion.</p>
+                    </div>
+                    <button class="catalog__btn-all btn-yellow">View All Products</button>
+                </div>
+                <div class="catalog__actions">
+                    <div class="catalog_radio-gender">
+                        <div class="form_radio_btn-gender">
+                            <input id="radio-1" type="radio" name="radio-gender" value="1" checked>
+                            <label for="radio-1">All</label>
+                        </div>
+                        <div class="form_radio_btn-gender">
+                            <input id="radio-2" type="radio" name="radio-gender" value="2">
+                            <label for="radio-2">Menswear</label>
+                        </div>
+                        <div class="form_radio_btn-gender">
+                            <input id="radio-3" type="radio" name="radio-gender" value="3">
+                            <label for="radio-3">Womenswear</label>
+                        </div>
+                        <div class="form_radio_btn-gender">
+                            <input id="radio-4" type="radio" name="radio-gender" value="4">
+                            <label for="radio-4">Kidswear</label>
+                        </div>
+                    </div>
+                    <div class="catalog__radio-type">
+                        <div class="form_radio_btn-type">
+                            <input id="radio-11" type="radio" name="radio-type" value="1" checked>
+                            <label for="radio-11">Casual</label>
+                        </div>                       
+                        <div class="form_radio_btn-type">
+                            <input id="radio-22" type="radio" name="radio-type" value="2">
+                            <label for="radio-22">Formal</label>
+                        </div>                        
+                        <div class="form_radio_btn-type">
+                            <input id="radio-33" type="radio" name="radio-type" value="3">
+                            <label for="radio-33">Party</label>
+                        </div>
+                    </div>
+                </div>
+                <ul class="catalog__list list">
+                    <li class="catalog__item">
+                        <article class="catalog__card">
+                            <img src="assets/images/catalog/Shape.jpg" class="card__img">
+                            <a href="#"><h3 class="card__title">Classic Denim Jeans</h3></a>
+                            <p class="card__desc desc">$49.99</p>
+                            <button class="card__btn-buy btn-yellow"><img src="assets/images/catalog/Buy.svg" alt=""></button>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="catalog__card">
+                            <img src="assets/images/catalog/Shape1.jpg" class="card__img">
+                            <a href="#"><h3 class="card__title">Cozy Comfort Hoodie</h3></a>
+                            <p class="card__desc desc">$39.99</p>
+                            <button class="card__btn-buy btn-yellow"><img src="assets/images/catalog/Buy.svg" alt=""></button>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="catalog__card">
+                            <img src="assets/images/catalog/Shape2.jpg" class="card__img">
+                            <a href="#"><h3 class="card__title">Classic Polo Shirt</h3></a>
+                            <p class="card__desc desc">$29.99</p>
+                            <button class="card__btn-buy btn-yellow"><img src="assets/images/catalog/Buy.svg" alt=""></button>
+                        </article>
+                    </li>
+                    <li class="catalog__item">
+                        <article class="catalog__card">
+                            <img src="assets/images/catalog/Shape3.jpg" class="card__img">
+                            <a href="#"><h3 class="card__title">Chino Pants</h3></a>
+                            <p class="card__desc desc">$44.99</p>
+                            <button class="card__btn-buy btn-yellow"><img src="assets/images/catalog/Buy.svg" alt=""></button>
+                        </article>
+                    </li>
+                </ul>
+                <div class="catalog__slider-actions">
+                    <!-- <button class="slider__btn-left"><img src="assets/images/catalog/LeftArrowButton.svg" alt="" class="slider__icon"></button>
+                    <button class="slider__btn-right"><img src="assets/images/catalog/RightArrowButton.svg" alt="" class="slider__icon"></button> -->
+                </div>
+            </div>
+        </section>
+        <!-- /catalog -->
+        <!-- aboutus -->
+        <section class="aboutus">
+            <div class="aboutus__container container">
+                <div class="section__top">
+                    <div class="section__name">
+                        <div class="section_titles">
+                            <h3 class="aboutus__title section__title">The Klothink Experience.</h3>
+                            <p class="section__subtitle aboutus__subtitle">About Us</p>
+                        </div>
+                        <p class="desc section_desc ">At Klothink, we breathe life into fashion, blending creativity with commitment. Our journey is fueled by a dedication to delivering unparalleled style and quality. Join us in redefining fashion and embracing a community where every purchase tells a story.</p>
+                    </div>
+                </div>
+                <ul class="aboutus__list">
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Passionate Craftsmanship</p>
+                        </div>
+                        <p class="aboutus__desc">Every garment at Klothink is crafted with passion, reflecting our commitment to quality and innovatio</p>
+                    </li>
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer-1.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Fashion Forward</p>
+                        </div>
+                        <p class="aboutus__desc">We're more than a brand; we're trendsetters, curating styles that empower and inspire confidence.</p>
+                    </li>
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer-2.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Customer-Centric Approach</p>
+                        </div>
+                        <p class="aboutus__desc">At Klothink, our customers are at the heart of everything we do. Your satisfaction is our measure of.</p>
+                    </li>
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer-3.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Global Inspiration</p>
+                        </div>
+                        <p class="aboutus__desc">Influenced by global trends, we bring you a diverse and dynamic collection.</p>
+                    </li>
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer-4.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Empowering Your Style</p>
+                        </div>
+                        <p class="aboutus__desc">Beyond clothing, Klothink is a lifestyle. Join us on a journey of self-expression.</p>
+                    </li>
+                    <li class="aboutus__item">
+                        <div class="aboutus__top">
+                            <img src="assets/images/aboutus/IconContainer-5.svg" alt="" class="aboutus__item-icon">
+                            <p class="aboutus__item-title">Sustainable Practices</p>
+                        </div>
+                        <p class="aboutus__desc">Klothink is committed to sustainability, integrating eco-friendly practices into our production process.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- /aboutus -->
+        <!-- testimonials -->
+        <section class="testimonials">
+            <div class="testimonials__container container">
+                <div class="section__top">
+                    <div class="section__name">
+                        <div class="section_titles">
+                            <h3 class="section__title">Customers Love.</h3>
+                            <p class="section__subtitle">Testimonials</p>
+                        </div>
+                        <p class="desc section_desc">At Klothink, our customers are the heartbeat of our brand. Explore the heartfelt testimonials shared by those who have experienced the magic of Klothink fashion.</p>
+                    </div>
+                    <button class="catalog__btn-all btn-yellow">View All Testimonials</button>
+                </div>
+                <ul style="position: relative;" class="tesimonials__list">
+                    <li class="testimonial__item">
+                        <div class="testimonial__author">
+                            <img src="assets/images/testimonials/Image.png" alt="" class="author__img">
+                            <div class="testimonial__author-info">
+                                <p class="author__name">
+                                    Sarah Thompson
+                                </p>
+                                <div class="author__rate">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                </div>
+                                <img src="assets/images/testimonials/kavichki.svg" alt="" class="kavichki">
+                            </div>
+                        </div>
+                        <p class="testimonial__text">
+                            Klothink exceeded my expectations. The gown's quality and design made me feel like a queen. Fast shipping, too!
+                        </p>
+                    </li>
+                    <li class="testimonial__item">
+                        <div class="testimonial__author">
+                            <img src="assets/images/testimonials/Image-1.png" alt="" class="author__img">
+                            <div class="testimonial__author-info">
+                                <p class="author__name">
+                                    Rajesh Patel
+                                </p>
+                                <div class="author__rate">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                </div>
+                                <img src="assets/images/testimonials/kavichki.svg" alt="" class="kavichki">
+                            </div>
+                        </div>
+                        <p class="testimonial__text">
+                            Absolutely love the style and warmth of the jacket. A perfect blend of fashion and functionality!
+                        </p>
+                    </li>
+                    <li class="testimonial__item">
+                        <div class="testimonial__author">
+                            <img src="assets/images/testimonials/Image-2.png" alt="" class="author__img">
+                            <div class="testimonial__author-info">
+                                <p class="author__name">
+                                    Emily Walker
+                                </p>
+                                <div class="author__rate">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                    <img src="assets/images/testimonials/Shape.svg" alt="" class="testimonial__star">
+                                </div>
+                                <img src="assets/images/testimonials/kavichki.svg" alt="" class="kavichki">
+                            </div>
+                        </div>
+                        <p class="testimonial__text">
+                            Adorable and comfortable! My daughter loves her new outfit. Thank you, Klothink, for dressing our little fashionista.
+                        </p>
+                    </li>
+                    <div class="testimonials__actions">
+                    <img src="assets/images/catalog/LeftArrowButton.svg" alt="" class="slider__btn-left">
+                    <img src="assets/images/catalog/RightArrowButton.svg" alt="" class="slider__btn-right">
+                </div>
+                </ul>
+            </div>
+        </section>
+        <!-- /testimonials -->
+        <!-- faq -->
+        <section class="faq">
+            <div class="faq__container container">
+                <div class="section__top">
+                    <div class="section__name">
+                        <div class="section_titles">
+                            <h3 class="section__title">Questions? We Have Answers.</h3>
+                            <p class="section__subtitle">FAQ</p>
+                        </div>
+                        <p class="desc section_desc">Ease into the world of Klothink with clarity. Our FAQs cover a spectrum of topics, ensuring you have the information you need for a seamless shopping experience.</p>
+                    </div>
+                </div>
+                <div class="faq__actions">
+                    <div class="faq_radio-type">
+                        <div class="form_radio_btn-faq">
+                            <input id="radio-41" type="radio" name="question-type" value="1" checked>
+                            <label for="radio-41">All</label>
+                        </div>
+                        <div class="form_radio_btn-faq">
+                            <input id="radio-42" type="radio" name="question-type" value="2">
+                            <label for="radio-42">Ordering</label>
+                        </div>
+                        <div class="form_radio_btn-faq">
+                            <input id="radio-43" type="radio" name="question-type" value="3">
+                            <label for="radio-43">Shipping</label>
+                        </div>
+                        <div class="form_radio_btn-faq">
+                            <input id="radio-44" type="radio" name="question-type" value="4">
+                            <label for="radio-44">Returns</label>
+                        </div>
+                        <div class="form_radio_btn-faq">
+                            <input id="radio-45" type="radio" name="question-type" value="5">
+                            <label for="radio-45">Customer Support</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq__questions">
+                    <ul class="faq__list">
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">Can I modify my order after placing it?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                                <p class="question__answer">
+                                    Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                                </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">How do I initiate a return?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">How can I unsubscribe from the newsletter?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">Do you offer exchanges for products?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="faq__list">
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">How can I place an order on Klothink?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                                <p class="question__answer">
+                                    Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                                </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">What payment methods do you accept?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">How can I track my order?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">What is your shipping policy?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="faq__list">
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">Are there any additional fees for returns?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                                <p class="question__answer">
+                                    Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                                </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">How do I create an account on Klothink?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">Can I change my account information?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                        <li class="faq__question">
+                            <div class="question__actions">
+                                <p class="question__title">Are my personal details secure on Klothink?</p>
+                                <button class="question__btn-answer"><img src="assets/images/faq/Vector.svg" alt=""></button>
+                            </div>
+                            <p class="question__answer">
+                                Ordering is easy! Simply browse our website, add items to your cart, and proceed to checkout. Follow the prompts to enter your details and complete your purchase.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- /faq -->
+        <!-- howitworks -->
+        <section class="howitworks">
+            <div class="how__container container">
+                <div class="section__top">
+                    <div class="section__name">
+                        <div class="section_titles">
+                            <h3 class="aboutus__title section__title">Seamless Experience.</h3>
+                            <p class="section__subtitle aboutus__subtitle">How it Works ?</p>
+                        </div>
+                        <p style="margin-bottom: 80px;" class="desc section_desc ">At Klothink, we've designed a straightforward shopping experience to make fashion accessible. Explore the journey from discovering the latest trends to receiving your handpicked styles with ease.</p>
+                    </div>
+                </div>
+                <ul class="how__list">
+                    <li class="how__item">
+                        <p class="how__item__count">01</p>
+                        <h5 class="how__item-title">Discover Trends</h5>
+                        <p class="how__item-desc">Explore our curated collection of over 1000 styles</p>
+                    </li>
+                    <li class="how__item">
+                        <p class="how__item__count">02</p>
+                        <h5 class="how__item-title">Secure Checkout</h5>
+                        <p class="how__item-desc">Add your items to the cart and proceed to our secure checkout.</p>
+                    </li>
+                    <li class="how__item">
+                        <p class="how__item__count">03</p>
+                        <h5 class="how__item-title">Swift Dispatch</h5>
+                        <p class="how__item-desc">Experience 95% same-day dispatch on orders.</p>
+                    </li>
+                    <li class="how__item">
+                        <p class="how__item__count">04</p>
+                        <h5 class="how__item-title">Unbox Happiness</h5>
+                        <p class="how__item-desc">Receive your carefully packaged Klothink order.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- /howitworks -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__subscribe">
+                    <img src="assets/images/logo/logo.svg" style="width: 80px;" alt="логотип" class="footer__logo">
+                    <div class="footer__subscribe-form">
+                        <input type="email" placeholder="Enter Your Email" class="footer__input">
+                        <button class="footer__btn-subscribe btn-yellow">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__title">Home</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Features</a></li>
+                            <li><a href="#" class="footer__link">Popular Products</a></li>
+                            <li><a href="#" class="footer__link">Testimonials</a></li>
+                            <li><a href="#" class="footer__link">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title">Menswear</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Casual</a></li>
+                            <li><a href="#" class="footer__link">Formal</a></li>
+                            <li><a href="#" class="footer__link">Party</a></li>
+                            <li><a href="#" class="footer__link">Business</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title">Womenswear</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Casual</a></li>
+                            <li><a href="#" class="footer__link">Formal</a></li>
+                            <li><a href="#" class="footer__link">Party</a></li>
+                            <li><a href="#" class="footer__link">Business</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__title kidswear">Kidswear</h4>
+                        <ul class="footer__list">
+                            <li><a href="#" class="footer__link">Casual</a></li>
+                            <li><a href="#" class="footer__link">Formal</a></li>
+                            <li><a href="#" class="footer__link">Party</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+    </div>
+    <!-- js -->
+    <script src="assets/js/faq.js"></script>
+</body>
+</html>

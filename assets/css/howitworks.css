@@ -1,0 +1,30 @@
+.how__list {
+	flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.how__item {
+	border: 1px solid #f1f1f3;
+	border-radius: 16px;
+	padding: 30px;
+    max-width: 374px;
+}
+.how__item__count {
+	font-weight: 600;
+	font-size: 80px;
+	/* line-height: 150%; */
+	color: #e4e4e7;
+    margin-bottom: 20px;
+}
+.how__item-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #333;
+}
+.how__item-desc {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #656567;
+}

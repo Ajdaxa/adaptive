@@ -1,0 +1,137 @@
+.catalog__container {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+}
+.section_titles{
+	gap: 21px;
+	margin-bottom: 36px;
+	display: flex;
+	align-items: start;
+}
+.section__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.section__name {
+	max-width: 1246px;
+}
+.catalog__desc{
+	max-width: 1068px;
+}
+.catalog__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.catalog__item {
+	max-width: 375px;
+}
+.catalog__card {
+	position: relative;
+}
+.card__img {
+	margin-bottom: 30px;
+}
+.card__title {
+	width: 100%;
+	margin-bottom: 6px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 150%;
+	color: #262626;
+}
+.card__desc {
+	width: 100%;
+}
+.card__btn-buy {
+	right: 0;
+	bottom: 95px;
+	border-radius: 50%;
+	width: 62px;
+	height: 63px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: absolute;
+}
+.catalog__slider-actions {
+	margin-top: -30px;
+	display: flex;
+	gap: 20px;
+	width: 100%;
+}
+.catalog__actions {
+	position: relative;
+	display: flex;
+	width: 100%;
+	padding: 30px 0;
+	align-items: center;
+	justify-content: space-between;
+}
+.catalog__actions::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #f1f1f3;
+	top: 0;
+}
+.catalog__actions::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background-color: #f1f1f3;
+	bottom: 0;
+}
+.form_radio_btn-gender {
+	display: inline-block;
+	margin-right: 40px;
+}
+.form_radio_btn-gender input[type='radio'] {
+	display: none;
+}
+.form_radio_btn-gender label {
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #98989a;
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+.form_radio_btn-gender input[type='radio']:checked + label {
+	color: #1a1a1a;
+}
+.form_radio_btn-gender label:hover {
+	color: #666;
+}
+.form_radio_btn-type {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn-type input[type='radio'] {
+	display: none;
+}
+.form_radio_btn-type label {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	color: #262626;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 6px;
+	user-select: none;
+	border-radius: 32px;
+	padding: 14px 24px;
+}
+.form_radio_btn-type input[type='radio']:checked + label {
+	background: #262626;
+	color: #fff;
+}
+.form_radio_btn-type label:hover {
+	color: #666;
+}
