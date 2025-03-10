@@ -6,6 +6,7 @@
     flex-wrap: wrap;
 }
 .testimonial__item {
+	position: relative;
 	max-width: 492px;
 	border: 1px solid #f1f1f3;
 	border-radius: 20px;
@@ -22,7 +23,7 @@
 	align-items: center;
 }
 .testimonial__author-info {
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -40,8 +41,8 @@
 }
 .kavichki {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 15%;
+	right: 7%;
 }
 .testimonial__text {
     flex: 1;

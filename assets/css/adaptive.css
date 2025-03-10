@@ -1,31 +1,119 @@
-@media(max-width:1440px){
-    .wrapper{
-        gap: 150px;
-    }
-    .container {
-        max-width: 1279px;
-        margin: 0 auto;
-    }
-    .banner__container{
-        grid-template-columns: 1fr;
-    }
-    .section__title{
-        font-size: 5.5vh;
-    }
+@media (max-width: 1440px) {
+	.wrapper {
+		gap: 150px;
+	}
+	.container {
+		max-width: 1279px;
+		margin: 0 auto;
+	}
+	.banner__container {
+		grid-template-columns: 1fr;
+	}
+	.section__title {
+		font-size: 38px;
+	}
 }
 @media (max-width: 390px) {
-
-    .container {
-        max-width: 357px;
-        margin: 0 auto;   
+	.container {
+		max-width: 357px;
+		margin: 0 auto;
+	}
+	.header__menu {
+		display: none;
+	}
+	.header__btn-burger {
+		display: block;
+	}
+	.header__btn-support {
+		display: none;
+	}
+	.section_titles {
+		flex-direction: column;
+	}
+	.section__title {
+		font-size: 28px;
+	}
+	.section__subtitle {
+		order: -1;
+	}
+	.section__desc {
+		font-weight: 400;
+		font-size: 14px;
+	}
+	.banner__container {
+		flex-direction: column;
+	}
+	.section__top {
+		flex-direction: column;
+	}
+	.banner__name {
+		flex-direction: column;
+	}
+	.banner__subtitle {
+		order: -1;
+	}
+	.banner__benefits {
+		width: 360px;
+	}
+	.banner__benefit {
+		width: 100%;
+	}
+	.banefit__title {
+		font-size: 20px;
+	}
+    .benefit__desc{
+        font-size: 14px;
     }
-    .header__menu{
+    .catalog__actions{
+        flex-direction: column;
+    }
+    .testimonials__actions{
         display: none;
     }
-    .header__btn-burger{
-        display: block;
+    .hwc{
+        display: flex;
+        gap: 4px;
     }
-    .header__btn-support{
+    .how__item{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .how__item__count{
+        font-size: 50px;
+    }
+    .how__item-title{
+        font-size: 16px;
+    }
+    .how__item-subtitle{
+        font-size: 14px;
+    }
+    .author__name{
+        font-size: 16px;
+    }
+    .testimonial__star{
+        width: 14px;
+    }
+    .kavichki{
+        width: 28px;
+        top: 8%;
+        right: 8%;
+    }
+    .footer__logo{
+        max-width: 40px;
+    }
+    .container{
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    .footer__links-s{
+        display: flex;
+    }
+    .footer__links-h{
+        display: block;
+        margin-top: 30px;
+    }
+    .footer__column{
         display: none;
     }
 }

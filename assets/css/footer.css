@@ -67,12 +67,36 @@
 	line-height: 130%;
 	letter-spacing: -0.03em;
 	color: #656567;
-	transition: .3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 .footer__link:hover {
-	transition: .3s ease-in-out;
+	transition: 0.3s ease-in-out;
 	color: #c69e00;
 }
 .kidswear {
 	width: 81px;
+}
+.ls {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__links-s {
+	/* display: flex; */
+	display: none;
+	gap: 16px;
+}
+.footer__links-h {
+	display: none;
+}
+.fooer__list-h {
+	display: flex;
+	gap: 24px;
+}
+.footer__link-h {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: -0.03em;
+	text-align: center;
+	color: #262626;
 }

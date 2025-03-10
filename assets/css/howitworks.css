@@ -28,3 +28,8 @@
 	line-height: 150%;
 	color: #656567;
 }
+.hwc{
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
